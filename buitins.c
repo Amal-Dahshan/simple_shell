@@ -46,8 +46,8 @@ void put_number(int numb)
 }
 
 /**
- * num_len - return the number len
- * @n: number to be printed
+ * num_length - return the number len
+ * @numb: number to be printed
  * Return: len.
  */
 

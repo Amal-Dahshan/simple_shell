@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _realloc - change buffer size and copy the content of the buffer.
+ * _reallocs - change buffer size and copy the content of the buffer.
  * @pointer: old buffer.
  * @older_size: the buffer old size.
  * @newest_size: the buffer new size.
@@ -106,8 +106,8 @@ int _env(p *arg_s)
 }
 
 /**
- * handle_realloc - handle realloc and free args in case it fail.
- * @arg_s: parameter of type args.
+ * handle_reallocs - handle realloc and free args in case it fail.
+ * @agr_s: parameter of type args.
  * @buffer_s: buffer to be reallocted
  * @buffer_size: the buffer size.
  * @extras: the size to be added.

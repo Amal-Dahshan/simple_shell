@@ -13,7 +13,7 @@
 #define STRING ((string) ? string : "(null)")
 
 /**
- * struct para - structure
+ * struct p - structure
  * @enp: array of enviromental variables.
  * @pwd: the working directory
  * @line: input.

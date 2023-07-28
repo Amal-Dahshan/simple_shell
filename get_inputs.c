@@ -121,8 +121,8 @@ return (_buffer[0] == '\0');
 /**
  * handle_dollar_sign - handle input containing $ sign.
  * @buffer_s: input containing $.
- * @d: input starting from $ sign.
- * @args: parameter of type para.
+ * @dollars: input starting from $ sign.
+ * @arg_s: parameter of type para.
 */
 void handle_dollar_sign(char *buffer_s, char **dollars, p *arg_s)
 {

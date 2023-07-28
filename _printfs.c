@@ -102,7 +102,7 @@ char *mallocs2(char *line_ptr, p *arg_s, int size_)
 
 /**
 * tokens - function to return the splitted number of token
-* @line_: the string to be splitted
+* @line_s: the string to be splitted
 * @delimeter: the delim used to split the string
 * Return:number of token splitted
 */

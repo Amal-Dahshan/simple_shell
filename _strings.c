@@ -60,7 +60,7 @@ char *_strdupl(p *arg_s, char *string)
 * _strncomp - compare the first n bytes of str1 and str2.
  * @string1: the first string to be compared.
  * @string2: the second string to be compared.
- * @n: the number of bytes to be compared.
+ * @numb: the number of bytes to be compared.
  * Return: 0 if the strings are equal.
 */
 int _strncomp(const char *string1, const char *string2, size_t numb)
@@ -96,7 +96,7 @@ char *_strchr(char *string, char ch)
 	return (NULL);
 }
 /**
-* _strncat - concatenate one sting to another.
+* _strncatenate - concatenate one sting to another.
  *@destination: the string to be added to.
  *@source: the string to be added.
  *@numb: number of bytes from src.

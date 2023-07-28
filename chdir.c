@@ -86,8 +86,8 @@ char **gets_PWD(p *arg_s)
 }
 
 /**
- * free_exit - free arguments before exit
- * @args: parameter of type para
+ * free_exits - free arguments before exit
+ * @arg_s: parameter of type para
  */
 void free_exits(p *arg_s)
 {
