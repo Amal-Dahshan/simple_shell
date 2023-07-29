@@ -29,7 +29,8 @@ int cd(p *arg_s)
 		}
 		if (chdir(desti) == -1)
 		{
-		_printfs("%s: %i: cd: can't cd to %s\n", arg_s->shell_user, arg_s->counter, desti);
+		_printfs("%s: %i: cd: can't cd to %s\n", arg_s->shell_user,
+				arg_s->counter, desti);
 		arg_s->status_num = 2;
 		}
 		else

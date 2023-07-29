@@ -8,7 +8,8 @@
  * Return: the new buffer.
 */
 
-void *_reallocs(void *pointer, unsigned int older_size, unsigned int newest_size)
+void *_reallocs(void *pointer, unsigned int older_size,
+		unsigned int newest_size)
 {
 	char *buffer_s;
 	unsigned int i;

@@ -20,7 +20,8 @@ int _commands_(p *arg_s)
 				return (_excecute(arg_s, arg_s->line));
 			return (0);
 		}
-	_printfs("%s: %i: %s: not found\n", arg_s->shell_user, arg_s->counter, arg_s->line);
+	_printfs("%s: %i: %s: not found\n", arg_s->shell_user, arg_s->counter,
+			arg_s->line);
 	}
 	else
 	{
@@ -37,7 +38,8 @@ int _commands_(p *arg_s)
 				return (_excecute(arg_s, buffer));
 			path += _strlen(path) + 1;
 		}
-	_printfs("%s: %i: %s: not found\n", arg_s->shell_user, arg_s->counter, arg_s->line);
+	_printfs("%s: %i: %s: not found\n", arg_s->shell_user,
+			arg_s->counter, arg_s->line);
 	}
 	arg_s->status_num = 127;
 	return (127);
@@ -175,19 +177,13 @@ while (1)
 	arg_s.counter++;
 	arrow = _inputs(&arg_s, arrow, &semi_numb);
 	if (handle_inputs(&arg_s))
-	{
 		continue;
-	}
 	arg_s.num_token = tokens(arg_s.line, " ");
 	if (_commands_(&arg_s) == 255)
-	{
 		free_exits(&arg_s);
-	}
 }
 if (argc > 1)
-{
 	close(arg_s.file_name);
-}
 return (0);
 }
 

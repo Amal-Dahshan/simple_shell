@@ -61,7 +61,8 @@ char *_strncatenate(char *destination, char *source, int numb);
 int _strcomp(char *string1, char *string2);
 void tostringify(char *string, int numb);
 int _excecute(p *arg_s, char *buffer);
-void *_reallocs(void *pointer, unsigned int older_size, unsigned int newest_size);
+void *_reallocs(void *pointer, unsigned int older_size,
+		unsigned int newest_size);
 int _atoi(char *string);
 int _exit_shell_(p *arg_s);
 int _commands_(p *arg_s);

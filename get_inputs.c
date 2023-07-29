@@ -93,7 +93,8 @@ int handle_inputs(p *arg_s)
 char *_buffer, *dollar, *start, *hash = _strchr(arg_s->line, '#');
 int buffer_size = 10240;
 
-if (hash && ((hash != arg_s->line && *(hash - 1) == ' ') || hash == arg_s->line))
+if (hash && ((hash != arg_s->line && *(hash - 1) == ' ')
+			|| hash == arg_s->line))
 	*hash = '\0';
 _buffer = _mallocs(arg_s, buffer_size);
 dollar = _strchr(arg_s->line, '$');
